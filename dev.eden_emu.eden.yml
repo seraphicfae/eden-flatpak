@@ -61,7 +61,7 @@ modules:
       - -DVulkanHeaders_FORCE_BUNDLED=ON
 
     post-install:
-      - desktop-file-edit --set-key StartupWMClass --set-value eden --set-key Exec --set-value eden-launcher /app/share/applications/dev.eden_emu.eden.desktop
+      - desktop-file-edit --set-key Exec --set-value eden-launcher /app/share/applications/dev.eden_emu.eden.desktop
 
     sources:
       - type: git

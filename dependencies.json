@@ -1,39 +1,39 @@
 [
   {
     "type": "file",
-    "dest": ".cache/cpm/boost",
     "url": "https://github.com/eden-emulator/ext-boost/releases/download/1.92.0/boost-1.92.0.tar.zst",
-    "sha512": "681d97be4386767662e230b2e7c9754d45e709cc5db4e747c23c27d1f5b0e87770bdf19b0bc44dcb0e8349324887bbb8fffb432098f4d0ce74a5043021a90afc"
+    "sha512": "681d97be4386767662e230b2e7c9754d45e709cc5db4e747c23c27d1f5b0e87770bdf19b0bc44dcb0e8349324887bbb8fffb432098f4d0ce74a5043021a90afc",
+    "dest": ".cache/cpm/boost"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/cpp-jwt",
     "url": "https://github.com/arun11299/cpp-jwt/archive/7f24eb4c32.tar.gz",
-    "sha512": "d11cbd5ddb3197b4c5ca15679bcd76a49963e7b530b7dd132db91e042925efa20dfb2c24ccfbe7ef82a7012af80deff0f72ee25851312ae80381a462df8534b8"
+    "sha512": "d11cbd5ddb3197b4c5ca15679bcd76a49963e7b530b7dd132db91e042925efa20dfb2c24ccfbe7ef82a7012af80deff0f72ee25851312ae80381a462df8534b8",
+    "dest": ".cache/cpm/cpp-jwt"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/discordrpc",
     "url": "https://github.com/eden-emulator/discord-rpc/archive/76616d8675.tar.gz",
-    "sha512": "8d680b3a16d6f6bf292ad823cf8635595ff986f2a49f758e3009f505b540a9d75194a8cf44cddea75736a8c3e3b5160166e716a0939ce3f18cc463cf648753fe"
+    "sha512": "8d680b3a16d6f6bf292ad823cf8635595ff986f2a49f758e3009f505b540a9d75194a8cf44cddea75736a8c3e3b5160166e716a0939ce3f18cc463cf648753fe",
+    "dest": ".cache/cpm/discordrpc"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/enet",
     "url": "https://github.com/lsalzman/enet/archive/refs/tags/v1.3.18.tar.gz",
-    "sha512": "a0d2fa8c957704dd49e00a726284ac5ca034b50b00d2b20a94fa1bbfbb80841467834bfdc84aa0ed0d6aab894608fd6c86c3b94eee46343f0e6d9c22e391dbf9"
+    "sha512": "a0d2fa8c957704dd49e00a726284ac5ca034b50b00d2b20a94fa1bbfbb80841467834bfdc84aa0ed0d6aab894608fd6c86c3b94eee46343f0e6d9c22e391dbf9",
+    "dest": ".cache/cpm/enet"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/frozen",
     "url": "https://github.com/serge-sans-paille/frozen/archive/61dce5ae18.tar.gz",
-    "sha512": "b8dfe741c82bc178dfc9749d4ab5a130cee718d9ee7b71d9b547cf5f7f23027ed0152ad250012a8546399fcc1e12187efc68d89d6731256c4d2df7d04eef8d5c"
+    "sha512": "b8dfe741c82bc178dfc9749d4ab5a130cee718d9ee7b71d9b547cf5f7f23027ed0152ad250012a8546399fcc1e12187efc68d89d6731256c4d2df7d04eef8d5c",
+    "dest": ".cache/cpm/frozen"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/httplib",
     "url": "https://github.com/yhirose/cpp-httplib/archive/v0.46.0.tar.gz",
-    "sha512": "159ed94965018f2a371d45a3bfc1961e5fb1549e501ded70a6b4532d7fe99d0579c18b5195aff6e35f96f399b426cea2650ec9fb75ef80d4c9edeccb51f2e6c9"
+    "sha512": "159ed94965018f2a371d45a3bfc1961e5fb1549e501ded70a6b4532d7fe99d0579c18b5195aff6e35f96f399b426cea2650ec9fb75ef80d4c9edeccb51f2e6c9",
+    "dest": ".cache/cpm/httplib"
   },
   {
     "type": "file",
@@ -43,80 +43,76 @@
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/oaknut",
     "url": "https://github.com/eden-emulator/oaknut/archive/refs/tags/v2.0.3.tar.gz",
     "sha512": "9697e80a7d5d9bcb3ce51051a9a24962fb90ca79d215f1f03ae6b58da8ba13a63b5dda1b4dde3d26ac6445029696b8ef2883f4e5a777b342bba01283ed293856",
-    "only-arches": [
-      "aarch64"
-    ]
+    "dest": ".cache/cpm/oaknut",
+    "only-arches": ["aarch64"]
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/quazip-qt6",
     "url": "https://github.com/stachenov/quazip/archive/2e95c9001b.tar.gz",
-    "sha512": "609c240c7f029ac26a37d8fbab51bc16284e05e128b78b9b9c0e95d083538c36047a67d682759ac990e4adb0eeb90f04f1ea7fe2253bbda7e7e3bcce32e53dd8"
+    "sha512": "609c240c7f029ac26a37d8fbab51bc16284e05e128b78b9b9c0e95d083538c36047a67d682759ac990e4adb0eeb90f04f1ea7fe2253bbda7e7e3bcce32e53dd8",
+    "dest": ".cache/cpm/quazip-qt6"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/reshade",
     "url": "https://github.com/crosire/reshade/archive/refs/tags/v6.8.0.tar.gz",
-    "sha512": "6fc9b39821ca6e2d91160f05846b3a42159fec759f5d6fba91d1a57801a1bdaf6047740578c136f0b1a60a9c29ad160d87dbfe0dbfbcdf6ea879a8a078377b8c"
+    "sha512": "6fc9b39821ca6e2d91160f05846b3a42159fec759f5d6fba91d1a57801a1bdaf6047740578c136f0b1a60a9c29ad160d87dbfe0dbfbcdf6ea879a8a078377b8c",
+    "dest": ".cache/cpm/reshade"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/simpleini",
     "url": "https://github.com/brofield/simpleini/archive/refs/tags/v4.25.tar.gz",
-    "sha512": "b937c18a7b6277d77ca7ebfb216af4984810f77af4c32d101b7685369a4bd5eb61406223f82698e167e6311a728d07415ab59639fdf19eff71ad6dc2abfda989"
+    "sha512": "b937c18a7b6277d77ca7ebfb216af4984810f77af4c32d101b7685369a4bd5eb61406223f82698e167e6311a728d07415ab59639fdf19eff71ad6dc2abfda989",
+    "dest": ".cache/cpm/simpleini"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/sirit",
     "url": "https://github.com/eden-emulator/sirit/archive/refs/tags/v1.0.5.tar.gz",
-    "sha512": "b7cd6885acae3fc8698288d19febba0dd45e4a02a2b6563d2eb995a988d0847046e8d16a5dea7e0bf832b4321bcec134cdbafc553f6ede039e4cf34525c5dce5"
+    "sha512": "b7cd6885acae3fc8698288d19febba0dd45e4a02a2b6563d2eb995a988d0847046e8d16a5dea7e0bf832b4321bcec134cdbafc553f6ede039e4cf34525c5dce5",
+    "dest": ".cache/cpm/sirit"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/spirv-headers",
     "url": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/vulkan-sdk-1.4.341.0.tar.gz",
-    "sha512": "d624371dd455c66a300344c89812598ffe11b5eedba555779f789e85c29dc67317741858c60e0744a1e6755cc0d2759b8659f0674f4cc31479c4cb6fc25ed23b"
+    "sha512": "d624371dd455c66a300344c89812598ffe11b5eedba555779f789e85c29dc67317741858c60e0744a1e6755cc0d2759b8659f0674f4cc31479c4cb6fc25ed23b",
+    "dest": ".cache/cpm/spirv-headers"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/nx_tzdb",
     "url": "https://git.eden-emu.dev/eden-emu/tzdb_to_nx/releases/download/230326/230326.tar.gz",
-    "sha512": "cce65a12bf90f4ead43b24a0b95dfad77ac3d9bfbaaf66c55e6701346e7a1e44ca5d2f23f47ee35ee02271eb1082bf1762af207aad9fb236f1c8476812d008ed"
+    "sha512": "cce65a12bf90f4ead43b24a0b95dfad77ac3d9bfbaaf66c55e6701346e7a1e44ca5d2f23f47ee35ee02271eb1082bf1762af207aad9fb236f1c8476812d008ed",
+    "dest": ".cache/cpm/nx_tzdb"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/vulkanheaders",
     "url": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/v1.4.345.tar.gz",
-    "sha512": "d2846ea228415772645eea4b52a9efd33e6a563043dd3de059e798be6391a8f0ca089f455ae420ff22574939ed0f48ed7c6ff3d5a9987d5231dbf3b3f89b484b"
+    "sha512": "d2846ea228415772645eea4b52a9efd33e6a563043dd3de059e798be6391a8f0ca089f455ae420ff22574939ed0f48ed7c6ff3d5a9987d5231dbf3b3f89b484b",
+    "dest": ".cache/cpm/vulkanheaders"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/vulkanmemoryallocator",
     "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/archive/refs/tags/v3.3.0.tar.gz",
-    "sha512": "deb5902ef8db0e329fbd5f3f4385eb0e26bdd9f14f3a2334823fb3fe18f36bc5d235d620d6e5f6fe3551ec3ea7038638899db8778c09f6d5c278f5ff95c3344b"
+    "sha512": "deb5902ef8db0e329fbd5f3f4385eb0e26bdd9f14f3a2334823fb3fe18f36bc5d235d620d6e5f6fe3551ec3ea7038638899db8778c09f6d5c278f5ff95c3344b",
+    "dest": ".cache/cpm/vulkanmemoryallocator"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/vulkanutilitylibraries",
     "url": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/v1.4.345.tar.gz",
-    "sha512": "114f6b237a6dcba923ccc576befb5dea3f1c9b3a30de7dc741f234a831d1c2d52d8a224afb37dd57dffca67ac0df461eaaab6a5ab5e503b393f91c166680c3e1"
+    "sha512": "114f6b237a6dcba923ccc576befb5dea3f1c9b3a30de7dc741f234a831d1c2d52d8a224afb37dd57dffca67ac0df461eaaab6a5ab5e503b393f91c166680c3e1",
+    "dest": ".cache/cpm/vulkanutilitylibraries"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/xbyak",
     "url": "https://github.com/herumi/xbyak/archive/refs/tags/v7.40.1.tar.gz",
     "sha512": "e0aa0a603dd3ac1a39d82213df1e73c042831aec2d6b2fe382c899651eaae4ed7e8aeb6be9c41ea0097087c9d091961ab18f313cd6a9e10d621715ffd49bfe36",
-    "only-arches": [
-      "x86_64"
-    ]
+    "dest": ".cache/cpm/xbyak",
+    "only-arches": ["x86_64"]
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/zbic",
     "url": "https://github.com/kinnay/zbic/archive/11b08f2712264bbed731545085cbd9702096ceb7.tar.gz",
-    "sha512": "fbe2f37986377d7f0d96ae3224c80b5971df6e8b6961f68061f1975ebb2e8cb78f07b90f014b007be4023dbf5513581504e7f7d61a5237cb2a8a7a61ae11e482"
+    "sha512": "fbe2f37986377d7f0d96ae3224c80b5971df6e8b6961f68061f1975ebb2e8cb78f07b90f014b007be4023dbf5513581504e7f7d61a5237cb2a8a7a61ae11e482",
+    "dest": ".cache/cpm/zbic"
   }
 ]

@@ -3,24 +3,23 @@
   "runtime": "org.kde.Platform",
   "runtime-version": "6.11",
   "sdk": "org.kde.Sdk",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm22"],
   "command": "eden-launcher",
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm22"],
   "finish-args": [
-    "--device-if=all:!has-input-device",
-    "--device=input",
-    "--device=dri",
-    "--socket=wayland",
-    "--socket=x11",
-    "--socket=pulseaudio",
     "--share=network",
     "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--socket=pulseaudio",
+    "--device=dri",
+    "--device=input",
+    "--device-if=all:!has-input-device",
     "--filesystem=xdg-run/app/com.discordapp.Discord:create"
   ],
   "modules": [
     {
       "name": "eden",
       "buildsystem": "cmake-ninja",
-      "builddir": true,
       "build-options": {
         "append-path": "/usr/lib/sdk/llvm22/bin",
         "prepend-ld-library-path": "/usr/lib/sdk/llvm22/lib",
@@ -43,6 +42,7 @@
           "RANLIB": "llvm-ranlib"
         }
       },
+      "builddir": true,
       "config-opts": [
         "-DBUILD_TESTING=OFF",
         "-DCMAKE_BUILD_TYPE=Release",
@@ -81,8 +81,8 @@
         {
           "type": "file",
           "url": "https://github.com/Eden-CI/PGO/releases/download/v020525/eden.profdata",
-          "dest-filename": "eden.profdata",
-          "sha256": "777dd9aefb9427ed08a642b02998f32c5ac120e5d32611d8f21cf1f4e68cee57"
+          "sha256": "777dd9aefb9427ed08a642b02998f32c5ac120e5d32611d8f21cf1f4e68cee57",
+          "dest-filename": "eden.profdata"
         }
       ]
     },

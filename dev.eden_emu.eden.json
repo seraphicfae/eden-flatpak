@@ -75,7 +75,7 @@
         {
           "type": "git",
           "url": "https://git.eden-emu.dev/eden-emu/eden.git",
-          "commit": "fa03b58f04e994c8967f59a20df6a3e40f25f1b4"
+          "commit": "5df599128d6828fa0e42968909da848c255d22b1"
         },
         {
           "type": "file",

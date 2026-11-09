@@ -31,15 +31,15 @@
   },
   {
     "type": "file",
-    "url": "https://github.com/yhirose/cpp-httplib/archive/v0.46.0.tar.gz",
-    "sha512": "159ed94965018f2a371d45a3bfc1961e5fb1549e501ded70a6b4532d7fe99d0579c18b5195aff6e35f96f399b426cea2650ec9fb75ef80d4c9edeccb51f2e6c9",
-    "dest": ".cache/cpm/httplib"
+    "url": "https://github.com/crueter/hydrocarbon/archive/f4ec2a3754.tar.gz",
+    "sha512": "e08520daa8acc6dcb3c181b1311f3386858907965eca1df5ff70b9f2b729bdacec3b54e5c852e89864d3e5dde6f83eb2b14e8f601b11d6b21963386e0a051d93",
+    "dest": ".cache/cpm/hydrocarbon"
   },
   {
     "type": "file",
-    "dest": ".cache/cpm/nlohmann_json",
-    "url": "https://github.com/nlohmann/json/archive/refs/tags/v3.12.0.tar.gz",
-    "sha512": "6cc1e86261f8fac21cc17a33da3b6b3c3cd5c116755651642af3c9e99bb3538fd42c1bd50397a77c8fb6821bc62d90e6b91bcdde77a78f58f2416c62fc53b97d"
+    "url": "https://github.com/crueter/jacinth/archive/refs/tags/0.1.0.tar.gz",
+    "sha512": "bba5f830724013b334043b0fc783ced7e478c8d2691d2ee6dafc92ce5df4866b2d656a1ee5ffe3e4b75d11e4ae3a4dc86b7578f9a73c438909fd54775540e6af",
+    "dest": ".cache/cpm/jacinth"
   },
   {
     "type": "file",

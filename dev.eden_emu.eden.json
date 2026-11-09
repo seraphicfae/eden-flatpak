@@ -8,8 +8,8 @@
   "finish-args": [
     "--share=network",
     "--share=ipc",
-    "--socket=fallback-x11",
     "--socket=wayland",
+    "--socket=fallback-x11",
     "--socket=pulseaudio",
     "--device=dri",
     "--device=input",
@@ -27,12 +27,12 @@
         "no-debuginfo": true,
         "arch": {
           "x86_64": {
-            "cflags": "-march=x86-64-v3 -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata",
-            "cxxflags": "-march=x86-64-v3 -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata"
+            "cflags": "-march=x86-64-v3 -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata -Wno-backend-plugin -Wno-profile-instr-unprofiled -Wno-profile-instr-out-of-date",
+            "cxxflags": "-march=x86-64-v3 -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata -Wno-backend-plugin -Wno-profile-instr-unprofiled -Wno-profile-instr-out-of-date"
           },
           "aarch64": {
-            "cflags": "-march=armv8-a -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata",
-            "cxxflags": "-march=armv8-a -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata"
+            "cflags": "-march=armv8-a -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata -Wno-backend-plugin -Wno-profile-instr-unprofiled -Wno-profile-instr-out-of-date",
+            "cxxflags": "-march=armv8-a -mtune=generic -O3 -pipe -fprofile-instr-use=/run/build/eden/eden.profdata -Wno-backend-plugin -Wno-profile-instr-unprofiled -Wno-profile-instr-out-of-date"
           }
         },
         "env": {
@@ -75,7 +75,7 @@
         {
           "type": "git",
           "url": "https://git.eden-emu.dev/eden-emu/eden.git",
-          "commit": "5df599128d6828fa0e42968909da848c255d22b1"
+          "commit": "ae60f8e7f85915a2b79d98b49e3134bbdbeca471"
         },
         {
           "type": "file",

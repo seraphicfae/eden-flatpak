@@ -14,8 +14,10 @@ If your issue happens only the flatpak build, make an issue in [this repo](https
 If you're having trouble with Discord RPC, see [this guide](https://github.com/flathub/com.discordapp.Discord/wiki/Rich-Precense-(discord-rpc)).
 
 ## How do I make my Eden app look 'nice'?'
-This is mostly a guide on how to theme Eden outside of KDE. Users on KDE benefit mostly from overriding the Qt style to Breeze.
-- Set `QT_STYLE_OVERRIDE=Breeze` and `XDG_CURRENT_DESKTOP=KDE` **IF** you're outside of KDE, in your environment variables via flatseal.
-- Configure your **kdeglobals** file to apply whatever theme you would like. You could symlink BreezeDark.colors into ~/.config/kdeglobals.
+This is a guide on how to theme Eden outside of KDE. Users on KDE can simply set the Qt widget style as Breeze, and pick whichever theme they want via the plasma settings.
+- Set `XDG_CURRENT_DESKTOP=KDE` in your environment variables via flatseal. 
+- If your Qt widget style is still fusion, set `QT_STLYE_OVERRIDE=Breeze` the same way as above.
+- Configure your **kdeglobals** file to apply whatever theme you would like. For example, you could symlink /usr/share/color-schemes/BreezeDark.colors into ~/.config/kdeglobals.
+- If you're on GNOME, Eden might not respect your theme settings. I have no idea why this is the case.
 > [!NOTE]
-> This could have unintended consequences
+> Editing **kdeglobals** could have unintended consequences that may affect other apps

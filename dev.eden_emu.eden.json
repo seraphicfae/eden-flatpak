@@ -4,7 +4,7 @@
   "runtime-version": "6.12-beta",
   "sdk": "org.kde.Sdk",
   "command": "eden-launcher",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm22"],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm23"],
   "finish-args": [
     "--share=network",
     "--share=ipc",
@@ -21,8 +21,8 @@
       "name": "eden",
       "buildsystem": "cmake-ninja",
       "build-options": {
-        "append-path": "/usr/lib/sdk/llvm22/bin",
-        "prepend-ld-library-path": "/usr/lib/sdk/llvm22/lib",
+        "append-path": "/usr/lib/sdk/llvm23/bin",
+        "prepend-ld-library-path": "/usr/lib/sdk/llvm23/lib",
         "strip": true,
         "no-debuginfo": true,
         "arch": {

@@ -12,3 +12,10 @@ Welcome! Before making an issue, please follow these steps:
 If your issue happens on the official AppImages, please make an [issue here](https://github.com/eden-emulator/Issue-Reports/issues). \
 If your issue happens only the flatpak build, make an issue in [this repo](https://github.com/flathub/dev.eden_emu.eden/issues). \
 If you're having trouble with Discord RPC, see [this guide](https://github.com/flathub/com.discordapp.Discord/wiki/Rich-Precense-(discord-rpc)).
+
+## How do I make my Eden app look 'nice'?'
+This is mostly a guide on how to theme Eden outside of KDE. Users on KDE benefit mostly from overriding the Qt style to Breeze.
+- Set `QT_STYLE_OVERRIDE=Breeze` and `XDG_CURRENT_DESKTOP=KDE` **IF** you're outside of KDE, in your environment variables via flatseal.
+- Configure your **kdeglobals** file to apply whatever theme you would like. You could symlink BreezeDark.colors into ~/.config/kdeglobals.
+> [!NOTE]
+> This could have unintended consequences

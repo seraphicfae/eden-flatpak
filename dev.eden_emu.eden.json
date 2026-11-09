@@ -1,7 +1,7 @@
 {
   "app-id": "dev.eden_emu.eden",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.11",
+  "runtime-version": "6.12-beta",
   "sdk": "org.kde.Sdk",
   "command": "eden-launcher",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm22"],

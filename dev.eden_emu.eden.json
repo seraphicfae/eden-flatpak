@@ -55,7 +55,6 @@
         "-DYUZU_USE_BUNDLED_FFMPEG=OFF",
         "-DYUZU_USE_BUNDLED_OPENSSL=OFF",
         "-DYUZU_USE_BUNDLED_SDL3=OFF",
-        "-Dfmt_FORCE_BUNDLED=OFF",
         "-Dzstd_FORCE_BUNDLED=OFF",
         "-DVulkanHeaders_FORCE_BUNDLED=ON",
         "-DYUZU_USE_QT_MULTIMEDIA=OFF",
@@ -75,7 +74,7 @@
         {
           "type": "git",
           "url": "https://git.eden-emu.dev/eden-emu/eden.git",
-          "commit": "ae60f8e7f85915a2b79d98b49e3134bbdbeca471"
+          "commit": "6a767ac43a089fe988526bf7f8477ccc43277fb1"
         },
         {
           "type": "file",
